@@ -4,11 +4,11 @@
 
 *   ExpressionEngine 2.1 or later 
 *   PHP 5 
-*   This add-on requires the [Now Playing iTunes Visualizer][34] by Brandon Fuller. 
+*   This add-on requires the <a href="http://brandon.fuller.name/archives/hacks/nowplaying/">Now Playing iTunes Visualizer</a> by Brandon Fuller. 
 
 ## Installation Instructions
 
-1.  Upload **jh\_now\_playing ** folder and it's contents to *system/expressionengine/third_party*/ 
+1.  Upload **jh\_now\_playing** folder and it's contents to *system/expressionengine/third_party*
 2.  Install the extension in Add-Ons → Extensions 
 3.  Ensure that Extensions are enabled in Add-Ons → Extensions 
 
@@ -17,10 +17,10 @@
 ### Primary Tag Pair
 
     {exp:jh_now_playing limit="3"}
-     
-        
-          {artist}{title}
-        
+    	<a href="{urlAmazon}"><img src="{artworkID}" alt="{album}" /></a>
+    	<p>
+    		<strong>{artist}</strong><br />{title}
+    	</p>
     {/exp:jh_now_playing}
     
 
